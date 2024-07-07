@@ -2,7 +2,7 @@ package Buoi2_JavaBasic;
 
 public class Calculator {
     public static void main(String[] args) {
-        //tính tồng 2 số nguyên
+        //tính tổng 2 số nguyên
         int a = 10;
         int b = 5;
         System.out.println("a= " +a);
