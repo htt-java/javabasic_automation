@@ -19,7 +19,8 @@
 *.tar.gz
 *.rar
 bin/
-idea/
+.idea/
+.idea/.gitignore
 *iml
 out/
 .allure/
