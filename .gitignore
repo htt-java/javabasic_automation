@@ -20,7 +20,6 @@
 *.rar
 bin/
 .idea/
-.idea/.gitignore
 *iml
 out/
 .allure/
