@@ -1,4 +1,4 @@
-package Buoi2_JavaBasic;
+package Buoi2_PhuongThuc_KieuDuLieu;
 
 public class Calculator {
     public static void main(String[] args) {

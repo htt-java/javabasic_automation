@@ -1,4 +1,4 @@
-package Buoi1_JavaBasic;
+package Buoi1_JavaBasic_Bien;
 
 public class SinhVien {
     public void sinhvien(){
