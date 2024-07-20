@@ -1,9 +1,9 @@
 package BaiTap_JavaOOP.person;
 
 public class Person {
-    public String name;
-    public int age;
-    public String gender;
+    private String name;
+    private int age;
+    private String gender;
     private String address;
     private String phone;
 

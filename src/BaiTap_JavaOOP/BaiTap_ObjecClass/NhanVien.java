@@ -1,10 +1,10 @@
 package BaiTap_JavaOOP.BaiTap_ObjecClass;
 
 public class NhanVien {
-    public String name;
-    public int age;
-    public String phone;
-    public String address;
+    private String name;
+    private int age;
+    private String phone;
+    private String address;
 
     public NhanVien(){
         name = "Nhuận Hữu";
