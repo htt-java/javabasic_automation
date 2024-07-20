@@ -1,4 +1,4 @@
-package BaiTap_ObjecClass;
+package BaiTap_JavaOOP.BaiTap_ObjecClass;
 
 public class NhanVien {
     public String name;

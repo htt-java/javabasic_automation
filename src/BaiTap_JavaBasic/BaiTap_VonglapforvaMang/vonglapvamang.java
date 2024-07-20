@@ -1,4 +1,4 @@
-package BaiTap_VonglapforvaMang;
+package BaiTap_JavaBasic.BaiTap_VonglapforvaMang;
 
 public class vonglapvamang {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package BT_ToantuvaDieukien;
+package BaiTap_JavaBasic.BT_ToantuvaDieukien;
 
 public class Toantu_quanhe_logic {
     public static void main(String[] args) {
