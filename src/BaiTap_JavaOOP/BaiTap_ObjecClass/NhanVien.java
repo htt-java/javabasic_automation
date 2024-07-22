@@ -5,15 +5,28 @@ public class NhanVien {
     private int age;
     private String phone;
     private String address;
+    private String gender;
+    private String msnn;
+    private String birthday;
 
-    public NhanVien(){
-        name = "Nhuận Hữu";
-        age = 27;
-        phone = "0964663104";
-        address = "Bình Định";
+    /*public NhanVien(String name, int age, String phone, String address){
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.address = address;
+    }*/
+
+    public NhanVien(String name, int age, String phone, String address, String gender, String msnn, String birthday) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.address = address;
+        this.gender = gender;
+        this.msnn = msnn;
+        this.birthday = birthday;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -21,18 +34,23 @@ public class NhanVien {
         return age;
     }
 
-    public String getPhone(){
+    public String getPhone() {
         return phone;
     }
 
-    public String getAddress(){
+    public String getAddress() {
         return address;
     }
 
-    public NhanVien(String name, int age, String phone, String address){
-        this.name = name;
-        this.age = age;
-        this.phone = phone;
-        this.address = address;
+    public String getGender() {
+        return gender;
+    }
+
+    public String getMsnn() {
+        return msnn;
+    }
+
+    public String getBirthday() {
+        return birthday;
     }
 }

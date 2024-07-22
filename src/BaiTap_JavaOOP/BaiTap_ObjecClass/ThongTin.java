@@ -2,18 +2,14 @@ package BaiTap_JavaOOP.BaiTap_ObjecClass;
 
 public class ThongTin {
     public static void main(String[] args) {
-        NhanVien nv1 = new NhanVien();
+        NhanVien nv1 = new NhanVien("Thái Hảo",25,"0975754596", "Hà Nội", "Nữ", "125", "11/07/2000");
         System.out.println(nv1.getName());
         System.out.println(nv1.getAge());
         System.out.println(nv1.getPhone());
         System.out.println(nv1.getAddress());
+        System.out.println(nv1.getGender());
+        System.out.println(nv1.getMsnn());
+        System.out.println(nv1.getBirthday());
 
-        System.out.println("=================");
-
-        NhanVien nv2 = new NhanVien("Thái Huệ", 28, "0964663104", "Hồ Chí Minh");
-        System.out.println(nv2.getName());
-        System.out.println(nv2.getAge());
-        System.out.println(nv2.getPhone());
-        System.out.println(nv2.getAddress());
     }
 }

@@ -33,10 +33,12 @@ public class Person {
         System.out.println(phone);
     }
 
-    private void getInfoPrivate(){
-        System.out.println(address);
-        System.out.println(phone);
+    public Person(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
     }
+
 
     public String getName(){
         return name;
@@ -50,11 +52,11 @@ public class Person {
         return gender;
     }
 
-    public String getAddress(){
+    protected String getAddress(){
         return address;
     }
 
-    public String getPhone(){
+    protected String getPhone(){
         return phone;
     }
 }

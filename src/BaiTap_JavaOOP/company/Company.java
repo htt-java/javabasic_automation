@@ -8,6 +8,5 @@ public class Company {
         System.out.println(person.getName());
         System.out.println(person.getAge());
         System.out.println(person.getGender());
-
     }
 }
